@@ -1,4 +1,4 @@
-# APIGIPHY
+# APIGIPHY ☑️
 Esta función asincrónica extrae una imagen aleatoria de GIPHY y la presenta en el contenido visual de un documento HTML, brindando dinamismo a la interfaz
 
 **Definición de la función getImagen**:Se declara una función llamada getImagen utilizando una sintaxis más compacta, utilizando una función asíncrona (async) y una expresión de función flecha (=>).
