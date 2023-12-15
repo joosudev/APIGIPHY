@@ -1,4 +1,4 @@
-# APIGIPHY ☑️
+# APIGIPHY 💯
 Función asincrónica que extrae una imagen aleatoria de GIPHY y la presenta en el contenido visual de un documento HTML, brindando dinamismo a la interfaz
 
 ## Video Referencia 
