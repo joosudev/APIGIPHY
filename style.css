@@ -1,22 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 body {
   background-color: #1b1b1f;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  padding: 20px; /* Agregamos un relleno para separar del borde */
 }
 
 .degradado {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 48px; /* Tamaño de la fuente, ajusta según necesites */
-  background: rgb(80,190,255);
-  background: linear-gradient(135deg, rgba(80,190,255,1) 4%, rgba(124,53,176,1) 64%);
-  background-clip: text; /* Clip de fondo para Webkit */
-  -webkit-text-fill-color: transparent; /* Color de texto transparente para Webkit */
-   display: inline-block;
-   margin-right: 80px;
-   font-family: 'Silkscreen', sans-serif;;
+  font-size: 4vw; /* Utilizando vw para el tamaño de la fuente */
+  background: rgb(80, 190, 255);
+  background: linear-gradient(135deg, rgba(80, 190, 255, 1) 4%, rgba(124, 53, 176, 1) 64%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  margin-right: 5vw; /* Utilizando vw para márgenes */
+  font-family: 'Silkscreen', sans-serif;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column; /* Cambiamos la dirección del flexbox */
+    text-align: center;
+  }
+
+  .degradado {
+    margin-right: 0; /* Eliminamos el margen derecho */
+    margin-bottom: 20px; /* Agregamos margen inferior */
+    font-size: 8vw; /* Cambiamos el tamaño de la fuente para dispositivos más pequeños */
+  }
 }
 
